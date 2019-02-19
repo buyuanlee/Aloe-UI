@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/buyuanwanli/Aloe-UI.git"
   },
-  "keywords": ["vue","UI"],
+  "keywords": ["vue","vuepress","UI"],
   "author": "buyuan",
   "license": "MIT",
   "bugs": {
