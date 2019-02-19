@@ -1,0 +1,7 @@
+# Created by .ignore support plugin (hsz.mobi)
+.idea/
+node_modules/vue/src/.DS_Store
+node_modules/vue/src/compiler/.DS_Store
+node_modules/vue/src/platforms/.DS_Store
+node_modules/vue/src/platforms/weex/.DS_Store
+node_modules/vue/src/platforms/weex/compiler/.DS_Store
