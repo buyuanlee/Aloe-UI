@@ -10,11 +10,18 @@
     "type": "git",
     "url": "git+https://github.com/buyuanwanli/Aloe-UI.git"
   },
-  "keywords": ["vue","vuepress","UI"],
+  "keywords": [
+    "vue",
+    "vuepress",
+    "UI"
+  ],
   "author": "buyuan",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/buyuanwanli/Aloe-UI/issues"
   },
-  "homepage": "https://github.com/buyuanwanli/Aloe-UI#readme"
+  "homepage": "https://github.com/buyuanwanli/Aloe-UI#readme",
+  "dependencies": {
+    "vue": "^2.6.6"
+  }
 }
