@@ -23,5 +23,9 @@
   "homepage": "https://github.com/buyuanwanli/Aloe-UI#readme",
   "dependencies": {
     "vue": "^2.6.6"
+  },
+  "devDependencies": {
+    "webpack": "^4.29.5",
+    "webpack-cli": "^3.2.3"
   }
 }
