@@ -2,7 +2,7 @@
   "name": "Aloe-UI",
   "version": "0.0.1",
   "description": "一个简单的UI框架",
-  "main": "index.js",
+  "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -22,10 +22,8 @@
   },
   "homepage": "https://github.com/buyuanwanli/Aloe-UI#readme",
   "dependencies": {
+    "lodash": "^4.17.11",
     "vue": "^2.6.6"
   },
-  "devDependencies": {
-    "webpack": "^4.29.5",
-    "webpack-cli": "^3.2.3"
-  }
+  "devDependencies": {}
 }
