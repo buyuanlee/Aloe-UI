@@ -12,7 +12,13 @@
 <script>
     export default {
         name: "a-button",
-        props: ['icon', 'iconPosition']
+        props: {
+            icon: {},
+            iconPosition: {
+                type: String,
+                default: "left"
+            }
+        }
     }
 </script>
 
