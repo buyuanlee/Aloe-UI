@@ -30,6 +30,9 @@
 </script>
 
 <style lang="scss" scoped>
+    $bg-color: #409EFF;
+    $font-color: #fff;
+    $border-radius: 5px;
     .icon {
         width: 1em;
         height: 1em;
@@ -40,7 +43,9 @@
     .aloe-button {
         font-size: 14px;
         font-weight: 500;
-        color: deepskyblue;
+        color: $font-color;
+        background-color: $bg-color;
+        border-radius: $border-radius;
         padding: 0 1em;
         display: inline-flex;
         justify-content: center;

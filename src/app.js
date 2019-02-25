@@ -13,6 +13,7 @@ new Vue({
     data: {
         loading: false
     }
-})
-;
+});
+
+console.log(Button);
 
