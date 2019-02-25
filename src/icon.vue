@@ -1,12 +1,12 @@
 <template>
-    <svg class="a-icon">
+    <svg class="aloe-icon">
         <use :xlink:href="`#i-${name}`"></use>
     </svg>
 </template>
 
 <script>
     export default {
-        name: "a-icon",
+        name: "aloe-icon",
         props: {
             name: {
                 type: String
@@ -17,7 +17,7 @@
 </script>
 
 <style lang="scss">
-    .a-icon {
+    .aloe-icon {
         width: 1em;
         height: 1em;
         fill: currentColor;

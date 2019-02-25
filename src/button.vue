@@ -1,8 +1,8 @@
 <template>
-    <button class="a-button" :class="{[`position-${iconPosition}`]:true}"
+    <button class="aloe-button" :class="{[`position-${iconPosition}`]:true}"
             @click="$emit('click')">
-        <a-icon class="icon" v-if="icon&&!loading" :name="icon"></a-icon>
-        <a-icon class="loading icon" v-if="loading" name="loading"></a-icon>
+        <aloe-icon class="icon" v-if="icon&&!loading" :name="icon"></aloe-icon>
+        <aloe-icon class="loading icon" v-if="loading" name="loading"></aloe-icon>
         <div class="content">
             <slot></slot>
         </div>
@@ -11,7 +11,7 @@
 
 <script>
     export default {
-        name: "a-button",
+        name: "aloe-button",
         props: {
             icon: {},
             iconPosition: {
@@ -37,7 +37,7 @@
         overflow: hidden;
     }
 
-    .a-button {
+    .aloe-button {
         font-size: 14px;
         font-weight: 500;
         color: deepskyblue;
