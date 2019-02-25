@@ -10,9 +10,9 @@
 <body>
 <div id="app">
     <a-button>我没有icon</a-button>
-    <a-button icon="download" icon-position="left">左边</a-button>
-    <a-button icon="download" icon-position="right">右边</a-button>
-    <a-button icon="loading" icon-position="right">加载中</a-button>
+    <a-button icon="download" icon-position="left" :loading="loading" @click="loading=!loading">左边</a-button>
+    <a-button icon="download" :loading="true" icon-position="right">右边</a-button>
+    <a-button :loading="true">加载中</a-button>
     <a-icon name="download" class="loading"></a-icon>
 </div>
 <script src="./src/app.js"></script>

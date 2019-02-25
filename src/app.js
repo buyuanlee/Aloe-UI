@@ -9,5 +9,9 @@ Vue.component('a-icon', Icon);
 
 new Vue({
     el: '#app',
-});
+    data: {
+        loading: false
+}
+})
+;
 
