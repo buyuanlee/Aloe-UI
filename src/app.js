@@ -1,7 +1,14 @@
 import Vue from 'vue'
-import Button from './button'
-import Icon from './icon'
-import ButtonGroup from './button-group'
+import chai from 'chai'
+import spies from 'chai-spies'
+
+chai.use(spies);
+
+const expect = chai.expect;
+
+import Button from './components/button'
+import Icon from './components/icon'
+import ButtonGroup from './components/button-group'
 
 
 Vue.component('aloe-button', Button);

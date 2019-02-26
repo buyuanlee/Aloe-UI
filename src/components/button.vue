@@ -10,8 +10,13 @@
 </template>
 
 <script>
+    import Icon from './icon'
+
     export default {
         name: "aloe-button",
+        components: {
+            'aloe-icon': Icon
+        },
         props: {
             icon: {},
             iconPosition: {
