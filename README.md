@@ -1,3 +1,4 @@
+此仓库已经废弃！
 # Aloe-UI
 ![Travis (.org)](https://img.shields.io/travis/buyuanlee/Aloe-UI.svg?style=for-the-badge)
 ![npm](https://img.shields.io/npm/v/npm.svg?style=for-the-badge)
